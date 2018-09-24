@@ -2,17 +2,14 @@
 
 <html>
     <body>
-        <head>
-            <link rel="stylesheet" href="styles.css">
+        <header>
+            <link rel="stylesheet" type="text/css" href="styles.css">
             <title>
                 Alden Mensinger HTML-me-something
             </title>
-            <h1>The Battle For Castle Itter</h1>
-            <p>
-                The Battle For Castle Itter was one of the strangest battles ever to be had during the Second World War. Pitting both American and defected German troops against German SS, both sides fought over
-                French POW's. One side aiming to capture and kill them, while the other saught to protect them, the final battle of WWII took place.
-            </p>
-            <nav>
+            <h1 class="title">The Battle For Castle Itter</h1>
+            <nav class="nav">
+                <div><b>Page Navigation</b></div>
                 <ul>
                     <li><a href="#Background">Background</a></li>
                     <li><a href="#Historical Figures">Historical Figures</a></li>
@@ -20,24 +17,29 @@
                     <li><a href="#stats">Battle Statistics</a></li>
                 </ul>
             </nav>
-        </head>
+            <h2 class="sum-title">Preface</h2>
+            <p class="summary">
+                    The Battle For Castle Itter was one of the strangest battles ever to be had during the Second World War. Pitting both American and defected German troops against German SS, both sides fought over
+                    French POW's. One side aiming to capture and kill them, while the other saught to protect them, the final battle of WWII took place.
+                </p>
+        </header>
         <main>
             <article>
                 <section>
                     <a name="Background"></a>
-                    <h3>Background</h3>
-                    <p>
-                        The Battle for Castle Itter was one of the last battles to be fought in the European Theater during World War 2. Fought on May 5th, 1945 in the Austrian North Tyrol Castle Itter.
+                    <h2 class="background-title">Background</h2>
+                    <img class="image1" src="https://allthatsinteresting.com/thumb/800.422.https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/11/castle-itter-og.jpg" alt="Image Not Found">
+                    <p class="background-p">
+                        The Battle for Castle Itter was the last battles to be fought in the European Theater during World War 2. Fought on May 5th, 1945 in the Austrian North Tyrol Castle Itter.
                         The castle is a small one on the hill just north of the village of Itter in Austria, occupied by the German army during the war. General Oswald Pohl seized the castle from the previous 
                         owner, Franz Grüner on February 7th, 1943. Pohl then transformed the castle into a prison camp, completing its transformation on the 25th of April 1943.
                         The prison was established to contain high-profile French prisoners that were deemed valuable to the <em>Reich</em>. Besides these "VIP Prisoners", the castle held numerous Eastern 
                         European prisoners detached from the Dachau Concentration Camp who were used for maintenance around the castle.
                     </P>
-                    <img src="https://allthatsinteresting.com/thumb/800.422.https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/11/castle-itter-og.jpg" alt="Image Not Found">
                 </section>
                 <section>
                     <a name="Historical Figures"></a>
-                    <h3>Historical Figures</h3>
+                    <h2>Historical Figures</h2>
                     <p>
                         some of the most notable names include the following:
                     </p>
@@ -66,9 +68,12 @@
                 </section>
                 <section>
                     <a name="The Battle"></a>
-                    <h3>The Battle</h3>
-                    <p>A very good synopsis of the battle in the form of a video if you would rather listen instead of read.</p>
-                    <video src="https://www.youtube.com/watch?v=-0UwLhziocc" width="50%" height="50%" controls> Video Not Supported</video>
+                    <h2>The Battle</h2>
+
+                    <div class="vid">
+                        <div class="vidisc">A very good synopsis of the battle in the form of <br>a video if you would rather listen instead of read.</div>
+                        <video calss="video"src="https://www.youtube.com/watch?v=-0UwLhziocc" width="100%" height="100%" controls> Video Not Supported</video>
+                    </div>
                     <p> On May 3rd 1945, the imprisoned Yugoslav communist resistance member Zvonimir Čučković working as a handyman at the prison, 
                         left the castle for preform errands for the prisons commander Sebastian Wimmer
                         Čučković carried a letter written in English, asking for Allied aid to, to give to the first American he found. 
@@ -109,7 +114,7 @@
                 </section>
                 <section>
                     <a name="stats"></a>
-                    <h3>Battle Statistics</h3>
+                    <h2>Battle Statistics</h2>
                     <ul>
                         <li>Casualties</li>
                         <ul>
